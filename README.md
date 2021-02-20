@@ -5,9 +5,9 @@
   Comando utilizado para criar um container
 
 ```
-docker run --name newcontainer hello-world
-docker run --name hello -d busybox sleep 3600
-docker run --name site -d -p 80:80 nginx
+docker run --name newcontainer [name_container]
+docker run --name [name_container] -d busybox sleep 3600
+docker run --name [name_container] -d -p 80:80 nginx
 ```
 
 # Docker PS
@@ -24,10 +24,10 @@ docker info
 Adiciona um processo a mais no container
 Vamos criar uma pasta dentro do container
 ```
-docker exec hello mkdir teste
+docker exec [name_container] mkdir [diretorio]
 ```
 
-# Acessando o container com o servico SH
+# Acesso ao container com o serviço SH
 ```
-docker exec -it hello sh
+docker exec -it [name_container] sh
 ```

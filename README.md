@@ -3,6 +3,12 @@
   <img height="300" src="readme/img/logo.png" >
 </p>
 
+<p>
+  Docker é um conjunto de plataforma de serviços que precisam de recursos de maquinas virtuais  utilizando sistema operacional para entregar software em pacotes chamados contêineres. 
+ Docker é meio de criar arquiteturas incríveis, repleta de tecnologias.
+</p>
+
+
 # Docker RUN
   Comando utilizado para criar um container
 
@@ -33,3 +39,19 @@ docker exec [name_container] mkdir [diretorio]
 ```
 docker exec -it [name_container] sh
 ```
+# Docker STOP, START
+Parar Container
+```
+docker stop [name_container]
+```
+Iniciar Container
+
+```
+docker start [name_container]
+```
+# Docker LOGS
+Coletar o output do container, ótimo para debugar uma aplicação
+```
+docker logs [name_container]  
+```
+

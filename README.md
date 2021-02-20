@@ -1,7 +1,7 @@
 
-<div  style="text-align:center">
-  <img style="width:100px;" src="readme/img/logo.png" >
-</div>
+<p align="center">
+  <img height="300" src="readme/img/logo.png" >
+</p>
 
 # Docker RUN
   Comando utilizado para criar um container

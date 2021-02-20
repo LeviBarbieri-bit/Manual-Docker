@@ -1,6 +1,6 @@
 
 <div  style="text-align:center">
-  <img  src="readme/img/logo.png">
+  <img style="width:100px;" src="readme/img/logo.png" >
 </div>
 
 # Docker RUN

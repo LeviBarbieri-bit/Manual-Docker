@@ -1,5 +1,7 @@
-## <h1>Docker</h1> 
 
+<div  style="text-align:center">
+  <img  src="readme/img/logo.png">
+</div>
 
 # Docker RUN
   Comando utilizado para criar um container

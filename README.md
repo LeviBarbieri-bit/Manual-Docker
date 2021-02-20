@@ -27,7 +27,7 @@ Vamos criar uma pasta dentro do container
 docker exec hello mkdir teste
 ```
 
-# Acessamos o container com o servico SH
+# Acessando o container com o servico SH
 ```
 docker exec -it hello sh
 ```
